@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Live Match</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+<h2 id="score"></h2>
+<p id="overs"></p>
+</div>
+
+<div class="card">
+<input id="runsOver" placeholder="Runs">
+<input id="wktsOver" placeholder="Wickets">
+
+<button onclick="updateOver()">Update</button>
+<button onclick="endInnings()">End Innings</button>
+</div>
+
+</div>
+
+<script src="js/app.js"></script>
+<script>initMatch()</script>
+
+</body>
+</html>
